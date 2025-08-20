@@ -1,0 +1,27 @@
+.dish-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgb(157, 163, 167);
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 350px;
+  max-height: 400px;
+}
+
+.dish-image-wrapper {
+  height: 180px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dish-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+/* For light mode (default handled by Bootstrap) */
+/* FoodItem.css */
+

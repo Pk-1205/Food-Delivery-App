@@ -1,0 +1,20 @@
+.contact-section {
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+.contact-info {
+  background: #222 !important;
+  border: 1px solid #333;
+}
+
+[data-bs-theme='light'] .contact-info {
+  background: #5890c8 !important;
+  color: #212529;
+  border: 1px solid #dee2e6;
+}
+
+.contact-info i {
+  color: var(--bs-primary);
+}
